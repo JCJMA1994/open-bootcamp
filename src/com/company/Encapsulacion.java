@@ -2,7 +2,7 @@ package com.company;
 
 public class Encapsulacion {
     public static void main(String[] args) {
-        Persona persona = new Persona();
+        Personas persona = new Personas();
         persona.setEdad(28);
         persona.setNombre("Jose Carlos Joao");
         persona.setTelefono(937829182);
@@ -17,7 +17,7 @@ public class Encapsulacion {
 
 }
 
-class Persona {
+class Personas {
     private int edad;
     private String nombre;
     private int telefono;
